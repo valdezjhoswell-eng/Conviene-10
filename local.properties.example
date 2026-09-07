@@ -1,0 +1,2 @@
+# Copiar a local.properties si se usa una instalación Android SDK local.
+sdk.dir=/ruta/a/tu/Android/Sdk

@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="PARÁMETROS" android:textSize="25sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/eMinKm" android:hint="Ganancia mínima $/km" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/eMinHour" android:hint="Ganancia mínima $/hora" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/eMaxKm" android:hint="Distancia máxima km" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/eMaxMin" android:hint="Tiempo máximo min" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/eMinTrips" android:hint="Viajes mínimos del pasajero" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Spinner android:id="@+id/spCash" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="Transparencia del visor" android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<SeekBar android:id="@+id/seekAlpha" android:max="80" android:progress="60" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnSave" android:text="Guardar" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>

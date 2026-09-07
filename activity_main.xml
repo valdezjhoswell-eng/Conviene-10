@@ -1,0 +1,11 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:text="VISOR ¿CONVIENE?" android:textSize="26sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="Asistente visual para Uber / Cabify. No pulsa Aceptar ni Rechazar." android:layout_marginTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnOverlay" android:text="Configurar visor y permisos" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnStart" android:text="Iniciar visor" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnStop" android:text="Detener visor" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnZones" android:text="Mapa y zonas" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnFilters" android:text="Parámetros y filtros" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/txtStatus" android:text="Estado: detenido" android:textSize="16sp" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:text="La primera versión está pensada para Galaxy Tab A11 (1340×800). La captura de pantalla requiere autorización de Android cada vez que se inicia una sesión." android:layout_marginTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>
